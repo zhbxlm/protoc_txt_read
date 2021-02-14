@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+package laryer;
+
+message LayerTest {
+    optional int32 name = 1;
+    repeated float data = 2;
+}
